@@ -1,0 +1,198 @@
+*{
+	padding:0;
+	margin:0;
+	max-width:100%;	
+}
+.home{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/back.jpg);
+	background-size:cover;
+	
+}
+.about{
+	background-image: url(../images/about.jpg);
+	background-size:cover;
+}	
+.loginback{
+    background-image: url(../images/log.jpg);
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;	
+}
+
+.regx{
+	background-image: url(../images/waste.jpg);
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+#login-box{
+	background-size:cover;
+
+}
+.buttons ul li{
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 0px;
+	border: solid white;                                                                                                      
+	border-radius: 8px;	
+}
+.buttons ul li a{
+	width: 254px;
+	text-decoration: none;
+	text-align:  center;
+	color: white;
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	padding: 20px;
+}
+.buttons ul li a:hover {
+	color: white;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgb(1,1,1));
+}
+.homehead{
+	margin-left: 320px;
+	margin-top:320px;
+	font-size: 90px;
+	font-family: 'Noticia Text', serif;
+	color:white;
+}
+.abouthead{
+	margin-left: 320px;
+	margin-top:0px;
+	font-size: 60px;
+	font-family: 'Satisfy', cursive;
+	color:black;
+	text-align: center;
+}
+.aboutcontent
+{
+	font-family: 'Sacramento', cursive;
+	font-size: 60px;
+}
+.homebutton
+{
+	float: right;
+	width:254px;
+	margin-top: 0px;
+	color: white;
+	padding: 20px;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgb(1,1,1));
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.loginhome
+{
+	margin-top: 50px;
+	float: right;
+	width: 250px;
+	height:50px;
+	text-decoration: none;
+	text-align:  center;
+	color: white;
+	font-size: 150px;
+	display:inline-block;
+	padding: 20px;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgb(1,1,1));
+	
+}
+
+
+
+.avathar{
+	width: 150px;
+	height: 150px;
+	border-radius: 50px;
+	position:absolute;
+	top: -100px;
+	left: 80px;
+	left: calc(50%,-50px);
+
+}
+h1{
+}
+
+.loginbox p{
+	margin:0;
+	padding: 10;
+	font-weight:solid;
+
+}
+.loginbox input{ 
+	width: 140%;
+	margin: 10px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	height:20px;
+	color: #fff;
+	font-size: 10px;
+}
+.input
+{
+	font-family: Poppins-Medium;
+	font-size: 16px;
+	color: #333333;
+	line-height: 1.2;
+	display: block;
+	width: 100%;
+	height: 55px;
+	background: transparent;
+	padding: 0 7px 0 43px;
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 40px;
+}
+
+
+.form2{
+	
+	width:450px;
+	height:450px;
+	background-color: #b224ef;
+	color:#fff;
+	top: 300px;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding: 60px 20px;
+}
+h3{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 35px;
+}
+
+.fields{
+	
+	width:450px;
+	height:450px;
+	background:#000;
+	color:#fff;
+	top: 300px;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding: 60px 20px;
+}
+h3{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 35px;
